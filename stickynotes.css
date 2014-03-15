@@ -1,0 +1,42 @@
+.whiteboard-wrapper .note-text {
+  margin: 0px;
+  padding: 1px 5px;
+  font-size: 18pt;
+  overflow: hidden;
+  line-height: 90%;
+  word-wrap: break-word;
+}
+
+.whiteboard-wrapper textarea {
+  display: none;
+  position: fixed;
+  background-color: transparent;
+  border: 0px;
+  margin: 0px;
+  padding: 1px 5px;
+  font-size: 18pt;
+  overflow: hidden;
+  line-height: 90%;
+  word-wrap: break-word;
+  resize: none;
+}
+
+.whiteboard-wrapper .note {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: 1px 1px 5px #aaaaaa;
+  -moz-box-shadow: 1px 1px 5px #aaaaaa;
+  box-shadow: 1px 1px 5px #aaaaaa;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  margin: 0px;
+  padding: 1px 5px;
+  font-size: 18pt;
+  overflow: hidden;
+  line-height: 90%;
+  word-wrap: break-word;
+}
