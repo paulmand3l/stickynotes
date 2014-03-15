@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Stickynotes by paulmand3l</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Stickynotes</h1>
+        <p class="header">A javascript library to cover your page in editable sticky notes.</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/paulmand3l/stickynotes/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/paulmand3l/stickynotes/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/paulmand3l/stickynotes">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/paulmand3l">paulmand3l</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="setup" class="anchor" href="#setup"><span class="octicon octicon-link"></span></a>Setup</h1>
+
+<p>Just include both <code>stickynotes.js</code> and <code>stickynotes.css</code> in your page.</p>
+
+<p>Also requires jQuery.  Sorry.</p>
+
+<h1>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<p>Clearly the only place to put stickynotes is on a whiteboard, so:</p>
+
+<pre><code>var whiteboard = new Whiteboard();
+</code></pre>
+
+<p>The Whiteboard constructor takes an optional jQuery selector to confine the whiteboard to a particular section of page, defaulting to 'body'.</p>
+
+<pre><code>var whiteboard = new Whiteboard('#whiteboard');
+</code></pre>
+
+<h1>
+<a name="interactions" class="anchor" href="#interactions"><span class="octicon octicon-link"></span></a>Interactions</h1>
+
+<p>Interactions with the stickynotes have been optimized for creation speed and cheapness.</p>
+
+<p>Click anywhere on the whiteboard at any time to create a new sticky note and start editing.</p>
+
+<p>While editing, <code>enter</code> submits changes and <code>esc</code> cancels changes.</p>
+
+<p>While not editing, hover over the stickynote with the mouse and press one of <code>y</code>, <code>b</code>, <code>r</code>, <code>g</code>, <code>p</code>, <code>m</code>, <code>c</code>, <code>t</code>, or <code>w</code> to change the color of the stickynote.</p>
+
+<p><img src="http://i.imgur.com/zCIjKnJ.gif" alt="stickynote colors"></p>
+
+<p>Drag a sticky note to move it.  Double click on a sticky note to delete it.</p>
+
+<p>It takes a little getting used to, since usually you click outside the note to submit/cancel changes.  Once you get used to it, though, this way is much faster.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
