@@ -12,7 +12,7 @@ Whiteboard = (function() {
 
     this.$whiteboard = $(selector || 'body').first();
     this.$whiteboard.addClass("whiteboard-wrapper");
-    this.$editor = $('textarea');
+    this.$editor = $('<textarea>').attr('id', 'editor');
 
     this.noteColors = {
       98: '#ccf', //blue
