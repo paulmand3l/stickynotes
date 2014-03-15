@@ -12,6 +12,17 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+
+    <link rel="stylesheet" href="stylesheets/stickynotes.css">
+    <script src="javascripts/stickynotes.js"></script>
+
+    <script>
+      document.addEventListener('DOMLoaded', function() {
+        var whiteboard = new Whiteboard();
+      });
+    </script>
+
   </head>
   <body>
     <div class="wrapper">
@@ -72,6 +83,6 @@
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+
   </body>
 </html>
