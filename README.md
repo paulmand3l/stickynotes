@@ -31,6 +31,8 @@ While editing, `enter` submits changes and `esc` cancels changes.
 
 While not editing, hover over the stickynote with the mouse and press one of `y`, `b`, `r`, `g`, `p`, `m`, `c`, `t`, or `w` to change the color of the stickynote.
 
-Double click on a sticky note to delete it.
+![stickynote colors](http://i.imgur.com/zCIjKnJ.gif)
+
+Drag a sticky note to move it.  Double click on a sticky note to delete it.
 
 It takes a little getting used to, since usually you click outside the note to submit/cancel changes.  Once you get used to it, though, this way is much faster.
