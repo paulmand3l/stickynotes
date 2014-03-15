@@ -15,10 +15,15 @@
   margin: 0px;
   padding: 1px 5px;
   font-size: 18pt;
+  font-family: sans-serif;
   overflow: hidden;
   line-height: 90%;
   word-wrap: break-word;
   resize: none;
+}
+
+.whiteboard-wrapper #editor {
+  font-family: sans-serif;
 }
 
 .whiteboard-wrapper .note {
