@@ -7,18 +7,20 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="stylesheets/stickynotes.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/stickynotes.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
 
-    <link rel="stylesheet" href="stylesheets/stickynotes.css">
-    <script src="javascripts/stickynotes.js"></script>
-
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
+      $(function() {
         var whiteboard = new Whiteboard();
       });
     </script>
